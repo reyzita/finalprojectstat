@@ -1,7 +1,7 @@
 # finalprojectstat
 
 
-The objective of this analysis was to evaluate and compare the sentiment‑classification performance of five neural‑network architectures—CNN, LSTM, BiLSTM, CNN‑LSTM and CNN‑BiLSTM—on user reviews of the “Access by KAI” mobile application, gathered from both the Google Play Store and the Apple App Store.
+The objective of this analysis was to evaluate and compare the sentiment analysis classification performance of five neural‑network architectures—CNN, LSTM, BiLSTM, CNN‑LSTM and CNN‑BiLSTM—on user reviews of the “Access by KAI” mobile application, gathered from both the Google Play Store and the Apple App Store.
 
 First, the raw review texts were collected and cleaned; then each review was tokenized and converted into vector embeddings. To address class imbalance, a random over‑sampling procedure was applied to create both balanced and unbalanced training sets. Five models were then trained and tested under both conditions:
 
